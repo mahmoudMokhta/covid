@@ -1,0 +1,62 @@
+*{
+
+    box-sizing: border-box;
+    font-family: 'Cairo', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    
+
+}
+
+select{
+    max-width: 50%;
+    font-size: 1.5rem;
+}
+.contant{
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+  
+}
+
+header{
+    width: 100%;
+   
+    min-height: 83rem;
+    background:rgb(0,0,0,.6)url(../image/covid.jpg);
+
+    background-size: cover;
+    background-blend-mode: darken ;
+
+
+}
+#descrebtion {
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin: 5rem 0;
+
+}
+
+p {
+    display: inline-block;
+    width: 17em;
+    box-shadow: 0 5px 25px rgb(0 0 0 / 63%);
+    text-align: center;
+    height: 3rem;
+    vertical-align: 5rem;
+    background-color: #ffffffa9;
+    color: black;
+    font-size: 1.5rem;
+    border-radius: 1rem;
+}
+
+.items {
+    gap: 1rem;
+    flex-direction: column;
+    align-items: center;
+    margin: .6rem;
+}
+.headDescrebtion{
+    width: 100%;
+    text-align: center;
+    margin: 3rem;
+}
